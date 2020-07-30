@@ -20,6 +20,7 @@ function changeNavColor() {
   window.pageYOffset > window.innerHeight * 0.3
     ? (navLink.style.color = "#5F6368")
     : (navLink.style.color = "#ffffff");
+  //window.pageYOffset > window.innerHeight * 0.3 ? (navLink.style.opacity = "1") : (navLink.style.opacity = "0.5");
 }
 
 // Burger line rotation and show Menu
@@ -30,4 +31,5 @@ function showMenu() {
   lineTwo.classList.toggle("line2-active");
   lineThree.classList.toggle("line3-active");
   burger.classList.toggle("burger-active");
+  navColor.classList.toggle("nav-bg-white");
 }
